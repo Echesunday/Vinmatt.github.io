@@ -1,0 +1,416 @@
+*{font-family: Arial, Helvetica, sans-serif;}
+body{margin: 0%;}
+.coner{
+    top: 0%;
+    z-index: 999;
+    position: fixed;
+    width: 100% !important;
+}
+.img{
+    width:5%;
+}
+.nav-bar{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    width: 100% !important;
+    top: -400px;
+    display: flex;
+    background-color: rgb(2, 2, 109);
+}
+.nav-bar i{display: none;}
+.ul{
+    display: flex;
+    margin-inline: 1rem;
+}
+.ul li{
+    margin-left: 45px;
+    list-style-type: none;
+    padding-inline: 4rem;
+  
+}
+.ul a{
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+}
+ul a:hover{
+    color: #ffa500;
+    width: 1px;
+    transition: ease-in-out 1s;
+}
+ul a:focus{
+   color: darkblue;
+}
+.saw li{
+    padding-block: 1rem;
+    background-color: rgb(2, 2, 109);
+    width: 70px;
+}
+.saw{display: none;
+    position: relative;
+    margin-right: 5rem;
+}
+.cast{
+    height: 20px;
+}
+.cast:hover .saw{
+    display: inline;
+}
+.flex{
+    margin-top: 3rem;
+    gap: 8rem;
+    display: flex;
+    padding-left: 5rem;
+    padding-top: 2rem;
+}
+.form{
+    box-shadow:0.0 1px 5px 1px ;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 3rem;
+    border-radius: 5pt;
+    margin-top: 3rem;
+}
+.form form input{
+    display: block;
+    margin-block: 50px;
+    width: 360px;
+    height: 30px;
+    border-radius: 4pt;
+    border-style: groove;
+}
+::placeholder{
+    opacity: 0.8;
+    padding-left: 20px;
+    font-size: 15px;
+}
+.form button{
+   width: 360px;
+   padding: 5px;
+   background-color: rgb(233, 233, 235);
+   border: none;
+   border-radius: 5pt;
+}
+.form button a{
+    background-color: rgb(2, 2, 109);
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 5pt;
+    font-size: 18px;
+   text-decoration: none;
+}
+.pos:hover{
+    transition: ease 1s;
+    background-color: rgb(63, 63, 217);
+}
+.here h1{
+    width: 500px;
+    font-weight: lighter;
+    font-size: 40px;
+    color: rgb(10, 10, 95);
+}
+.here p{
+    font-size: 18px;
+    color: rgb(63, 61, 61);
+    width: 600px;
+}
+.jk{
+    height: 4px;
+    width: 39px;
+    position: absolute;
+    font-size: 1px;
+    margin-left: 408px;
+    margin-top: 190px;
+    position: absolute;
+     transform:rotate(75deg);
+     -o-transform:rotate(55deg);
+     -moz-transform:rotate(505deg);
+     -webkit-transform:rotate(611deg);
+     background-color: green;
+     animation-name: light;
+     animation-duration: 5s;
+     animation-iteration-count: infinite;
+}
+@keyframes light{
+    5%{background-color: green;}
+    2%{background-color: aliceblue;}
+    15%{background-color: green;}
+    30%{background-color: rgb(177, 183, 189);}
+
+}
+#ad{
+    font-size: 11px;
+    margin-top: 337px;
+    margin-left: 414px;
+    position: absolute;
+    position: absolute;
+     transform:rotate(75deg);
+     -o-transform:rotate(55deg);
+     -moz-transform:rotate(505deg);
+     -webkit-transform:rotate(335deg);
+     animation-name: light;
+     animation-duration: 5s;
+     animation-iteration-count: infinite;
+     color: green;
+}
+.loc{
+    padding-left: 2rem;
+    border-style: groove;
+    width: 610px;
+    margin-left: 80px;
+    margin-top: 3rem;
+    border-width: 2px;
+    border-radius: 5px;
+    margin-bottom: 5rem;
+}
+.lo{
+    font-size: 20px;
+    color: rgba(10, 100, 2, 0.719);
+}
+.locate img{
+    width: 50px;
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 3pt;
+}
+.locate{
+    gap: 1rem;
+    display: flex;
+}
+.loc i{
+    font-size: 2rem;
+    color: rgb(2, 2, 109);
+}
+.str{
+    display: flex;
+}
+.str i{
+    margin-top: 8px;
+}
+.str p{
+    margin-left: 20px;
+    color: rgb(99, 97, 97);
+}
+.phone{
+    display: flex;
+}
+.phone i{
+    margin-top: 5px;
+}
+.phone p{
+    color: rgb(99, 97, 97);
+    margin-left: 20px;
+}
+.mail{
+    display: flex;
+}
+.mail i{
+    margin-top: 7px;
+}
+.mail p{
+    color: rgb(99, 97, 97);
+    margin-left: 20px;
+}
+
+.filter{
+    padding-left: 2rem;
+    padding-top: 2rem;
+    display: flex;
+    background-color: rgb(2, 2, 80); 
+}
+.filter-nav{
+    margin-left: 20%;
+}
+.filter h1{color: white; font-size: 30px;}
+.filter li{list-style-type: none; font-size: 20px;}
+.filter a{text-decoration: none; color: white;}
+.vas{
+    margin-left: 25%;
+}
+.filter-logo img{
+    width: 150px;
+}
+.filter i{
+    font-size: 30px;
+    display: none;
+}
+.copy{
+    margin-top: 5rem;
+    color: aliceblue;
+    font-size: 15px;
+}
+
+@media(max-width: 981px){
+    *{margin-top: 0%; margin-left: 0%;}
+    #ic{
+        margin-left: 13rem;
+        font-size: 2rem;
+        display: block;
+    }
+    .img{width: 50px;}
+    .ul{
+        display: block;
+        background-color: rgb(29, 80, 161);
+        position: absolute;
+        top: -600px;
+        transition: ease 1s;
+        width: 389px;
+        padding-left: 0%;
+        margin-left: 0%;
+    }
+    .ul i{
+        font-size: 2rem;
+        display: block;
+        margin-left: 18rem;
+        margin-top: 20px;
+    }
+    .ul a{padding-inline: 0%;   padding-left: 5rem;}
+    .ul li{
+        position: relative;
+        padding-block: 20px;
+        margin-left: 0px;
+        padding-inline: 0%;
+        background-color: rgb(29, 80, 161);
+        padding-left: 5rem;
+    }
+    .saw li{
+        padding-block: 1rem;
+        background-color: rgb(29, 80, 161);
+        width: 389px;
+    }
+    .saw{
+        display: none;
+        position: relative;
+    }
+    #ff{
+        margin-top: 135px;
+        z-index: 999;
+       position: absolute;
+      
+    }
+    .dd{
+        position: absolute;
+    }
+    .cast{
+        height: 20px;
+    }
+    .flex{
+        padding-left: 1rem;
+        display: block;
+    }
+    .here h1{
+        width: 300px;
+        font-size: 20px;
+    }
+    .here p{
+        line-height: 20px;
+        font-size: 13px;
+        width: 310px;
+    }
+    .here img{
+        width: 96%;
+    }
+    .jk{
+        margin-top: 100px;
+        margin-left: 217px;
+        height: 2px;
+        width: 20px;
+    }
+    #ad{
+        margin-top: 199px;
+        margin-left: 218px;
+        font-size: 9px;
+    }
+    .loc{
+        padding-top: 10px;
+        margin-left: 1rem;
+        padding-left: 10px;
+        width: 300px;
+    }
+    .form{
+        padding-top: 1rem;
+        width: 265px;
+        margin-left: 5px;
+    }
+    .form form input{
+        width: 250px;
+        height: 20px;
+        margin-block: 2rem;
+        padding-left: 10px;
+    }
+    ::placeholder{
+        font-size: 13px;
+        padding-left: 10px;
+    }
+    .form button{
+        width: 270px;
+    }
+    .form button a{
+        padding: 4px;
+        font-size: 13px;
+    }
+    .lo{
+        font-size: 18px;
+        margin-top: 2px;
+    }
+    .locate img{
+        width: 40px;
+        margin-top: 0px;
+        height: 25px;
+        border-radius: 3pt;
+    }
+    .str i{
+        margin-top: 0px;
+    }
+    .str p{
+        margin-left: 13px;
+        width: 300px;
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    .phone i{
+        margin-top: 5px;
+    }
+    .phone p{
+        margin-left: 20px;
+        font-size: 13px;
+        margin-top: 13px;
+    }
+    .mail i{
+        margin-top: 7px;
+    }
+    .mail p{
+        margin-left: 20px;
+        font-size: 13px;
+        margin-top: 13px;
+    }
+    .filter{display: block;padding-bottom: 1rem;}
+.filter-nav{ margin-left: 0%;}
+.vas{ margin-left: 0%;}
+.filter i{
+    color: aliceblue;
+    display: block;
+    position: absolute;
+    margin-left: 15rem;
+}
+.copy{
+    font-size: 13px;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+}
+.firstdis{
+    position: relative;
+    width: 50%;
+    height: 25%;
+    display: none;
+}
+.seconddis{
+    position: relative;
+    width: 50%;
+    height: 25%;
+    display: none;
+}
+}

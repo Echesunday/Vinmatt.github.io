@@ -1,0 +1,327 @@
+*{font-family: Arial, Helvetica, sans-serif;}
+body{margin: 0%;}
+.coner{
+    z-index: 999;
+    position: fixed;
+    width: 100% !important;
+}
+.img{
+    width:5%;
+}
+.nav-bar{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    width: 100% !important;
+    top: -400px;
+    display: flex;
+    background-color: rgb(2, 2, 109);
+}
+.nav-bar i{display: none;}
+.ul{
+    display: flex;
+    margin-inline: 1rem;
+}
+.ul li{
+    margin-left: 45px;
+    list-style-type: none;
+    padding-inline: 4rem;
+  
+}
+.ul a{
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+}
+ul a:hover{
+    color: #ffa500;
+    width: 1px;
+    transition: ease-in-out 1s;
+}
+ul a:focus{
+   color: darkblue;
+}
+.saw li{
+    padding-block: 1rem;
+    background-color: rgb(2, 2, 109);
+    width: 70px;
+}
+.saw{display: none;
+    position: relative;
+}
+.cast{
+    height: 20px;
+}
+.cast:hover .saw{
+    display: inline;
+}
+.sunday{
+    padding-bottom: 9rem;
+    padding-left: 5rem;
+    padding-top: 8rem;
+    background-color: rgb(235, 157, 12);
+    display: flex;
+   gap: 8rem;
+}
+.imgg{
+    margin-top: 5rem;
+}
+.imgg img{
+    width: 480px;
+}
+.vit{
+    font-size: 35px;
+}
+.vit span{
+    color: rgb(30, 2, 133);
+}
+.dash{
+    color: rgb(164, 18, 18);
+    font-size: 50px;
+   font-weight: bold;
+    width: 500px;
+}
+.mm{
+    background-color: rgb(2, 2, 109);
+    color: rgb(2, 2, 109);
+    height: 3px;
+    font-size: 1px;
+}
+.alone{
+    margin-left: 6rem;
+    margin-top: 5rem;
+}
+.alone p{
+
+    color: rgb(97, 97, 97);
+    width: 520px;
+    font-size: 20px;
+    line-height: 35px;
+}
+.sit{
+    margin-top: 5rem;
+    margin-left: 30rem;
+    font-size: 40px;
+    font-weight: bold;
+}
+.inline{
+    gap: 15rem;
+    margin-top: 5rem;
+    display: flex;
+    padding-left: 6rem;
+    padding-bottom: 10rem;
+}
+.inline i{
+    font-size: 2rem;
+    color: rgb(2, 2, 109);
+    margin-top: 8px;
+}
+.ya{
+    margin-top: 90px;
+    display: flex;
+}
+.ya i{
+    margin-top: 17px;
+}
+.ya p{margin-left: 30px; width: 400px;}
+.yes{
+    display: flex;
+}
+.yes p{margin-left: 30px; }
+.no{
+    display: flex;
+}
+.no i{margin-top: 15px;}
+.no p{margin-left: 30px; width: 500px;}
+.ok{
+    margin-top: 90px;
+    display: flex;
+}
+.ok p{margin-top: 15px; margin-left: 30px;}
+.filter{
+    padding-left: 2rem;
+    padding-top: 2rem;
+    display: flex;
+    background-color: rgb(2, 2, 80); 
+}
+.filter-nav{
+    margin-left: 20%;
+}
+.filter h1{color: white; font-size: 30px;}
+.filter li{list-style-type: none; font-size: 20px;}
+.filter a{text-decoration: none; color: white;}
+.vas{
+    margin-left: 25%;
+}
+.filter-logo img{
+    width: 150px;
+}
+.filter i{
+    font-size: 30px;
+    display: none;
+}
+.copy{
+    margin-top: 5rem;
+    color: aliceblue;
+    font-size: 15px;
+}
+
+@media(max-width:981px){
+    *{margin-top: 0%;}
+    #ic{
+        margin-left: 13rem;
+        font-size: 2rem;
+        display: block;
+    }
+    .img{width: 50px;}
+    .ul{
+        display: block;
+        background-color: rgb(29, 80, 161);
+        position: absolute;
+        top: -600px;
+        transition: ease 1s;
+        width: 389px;
+        padding-left: 0%;
+        margin-left: 0%;
+    }
+    .ul i{
+        font-size: 2rem;
+        display: block;
+        margin-left: 18rem;
+        margin-top: 20px;
+    }
+    .ul a{padding-inline: 0%;   padding-left: 5rem;}
+    .ul li{
+        position: relative;
+        padding-block: 20px;
+        margin-left: 0px;
+        padding-inline: 0%;
+        background-color: rgb(29, 80, 161);
+        padding-left: 5rem;
+    }
+    .saw li{
+        padding-block: 1rem;
+        background-color: rgb(29, 80, 161);
+        width: 389px;
+    }
+    .saw{
+        display: none;
+        position: relative;
+    }
+    #ff{
+        margin-top: 135px;
+        z-index: 999;
+       position: absolute;
+      
+    }
+    .dd{
+        position: absolute;
+    }
+    .cast{
+        height: 20px;
+    }
+    .sunday{
+        padding-bottom: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 1rem;
+        display: block;
+       gap: 35rem;
+    }
+    
+    .imgg{padding-top: 25px;}
+    .imgg img{
+        width: 100%;
+        border-top-left-radius: 50%;
+    }
+    .first{
+        margin-top: 10px;
+    }
+    .vit{
+        margin-top: 1rem;
+        font-size: 20px;
+    }
+    .dash{
+        font-size: 30px;
+        width: 300px;
+    }
+    .mm{
+        height: 1px;
+        font-size: 1px;
+    }
+    .alone{
+        margin-left: 0px;
+        padding-left: 1rem;
+        margin-top: 2rem;
+    }
+    .alone p{
+    width: 300px;
+    font-size: 15px;
+    }
+    .sit{
+        position: absolute;
+        margin-top: 1rem;
+        margin-left: 4rem;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .inline{
+        margin-top: 5rem;
+        display: block;
+        padding-left: 10px;
+    }
+    .inline p{
+    font-size: 15px;
+    width: 540px;
+    }
+    .ya{
+        width: 350px;
+        margin-top: 7px;
+        display: flex;
+    }
+    .ya p{margin-left: 15px; margin-top: 15px;}
+    .yes{
+        width: 300px;
+        display: flex;
+    }
+    .yes p{margin-left: 15px; margin-top: 10px;}
+    .no{
+        width: 355px;
+        margin-top: 20px;
+        display: flex;
+    }
+    .no p{margin-left: 15px;}
+    .ok{
+        width: 350px;
+        margin-top: 20px;
+        display: flex;
+    }
+    .ok p{margin-top: 10px; margin-left: 15px;}
+    .filter{display: block;padding-bottom: 1rem;  width: 343px;}
+.filter-nav{ margin-left: 0%;}
+.vas{ margin-left: 0%;}
+.filter i{
+    display: block;
+    position: absolute;
+    margin-left: 15rem;
+}
+.firstdis{
+    position: relative;
+    width: 50%;
+    height: 25%;
+    display: none;
+}
+.seconddis{
+    position: relative;
+    width: 50%;
+    height: 25%;
+    display: none;
+}
+.copy{
+    font-size: 13px;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+}
+}

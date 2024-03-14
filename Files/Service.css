@@ -1,0 +1,468 @@
+*{font-family: Arial, Helvetica, sans-serif;}
+body{margin: 0%;}
+.coner{
+    z-index: 999;
+    position: fixed;
+    top: 0%;
+    width: 100% !important;
+}
+.img{
+    width:5%;
+}
+.nav-bar{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    width: 100% !important;
+    top: -400px;
+    display: flex;
+    background-color: rgb(2, 2, 109);
+}
+.nav-bar i{display: none;}
+.ul{
+    display: flex;
+    margin-inline: 1rem;
+}
+.ul li{
+    margin-left: 45px;
+    list-style-type: none;
+    padding-inline: 4rem;
+  
+}
+.ul a{
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+}
+ul a:hover{
+    color: #ffa500;
+    width: 1px;
+    transition: ease-in-out 1s;
+}
+ul a:focus{
+   color: darkblue;
+}
+.saw li{
+    padding-block: 1rem;
+    background-color: rgb(2, 2, 109);
+    width: 70px;
+}
+.saw{display: none;
+    position: relative;
+    margin-right: 5rem;
+}
+.cast{
+    height: 20px;
+}
+.cast:hover .saw{
+    display: inline;
+}
+/*first-section*/
+.first-section{
+    margin-top: 10rem;
+    padding-left: 5rem;
+    padding-bottom: 5rem;
+}
+/*heading*/
+.heading h4{
+    font-size: 50px;
+    color: rgb(15, 15, 72);
+}
+/*first paragraph*/
+.firstp p{
+    font-size: 25px;
+    width: 1000px;
+    padding-top: 3rem;
+}
+.list-offer{
+    margin-top: 2rem;
+}
+/*number 1 of the offer*/
+.one{
+    padding: 5px;
+    background-color: orange;
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    margin-top: 10px;
+    padding-right: 7px;
+    border: solid rgb(2, 2, 109);
+}
+.number1{display: flex;}
+.number1 p{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 23px;
+}
+.number2{display: flex;}
+.number2 p{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 23px;
+}
+.two{
+    padding: 5px;
+    background-color: orange;
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    margin-top: 10px;
+    padding-right: 7px;
+    border: solid rgb(2, 2, 109);
+}
+.number3{display: flex;}
+.number3 p{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 23px;
+}
+.three{
+    padding: 5px;
+    background-color: orange;
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    margin-top: 10px;
+    padding-right: 7px;
+    border: solid rgb(2, 2, 109);
+}
+/*Vinmat-cares*/
+.need{
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 5rem;
+}
+.need p{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(15, 15, 72);
+}
+.vinsave{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 2rem;
+    padding-bottom: 5rem;
+}
+.first-care{
+    padding-left: 10px;
+    padding-top: 20px;
+    border-radius: 3%;
+}
+.first-care img{
+    border-radius: 2%;
+    width: 100%
+}
+.first-care h2{
+    font-size: 20px;
+}
+.first-care p{
+    font-size: 15px;
+    width: 350px;
+}
+.second-care{
+    padding-left: 10px;
+    padding-top: 20px;
+    border-radius: 3%;
+    padding-bottom: 10px;
+}
+.second-care img{
+    border-radius: 2%;
+    width: 100%
+ }
+ .second-care h2{
+    font-size: 20px;
+}
+ .second-care p{
+    font-size: 15px;
+    width: 330px;
+}
+.third-care{
+    padding-left: 10px;
+    padding-top: 20px;
+    border-radius: 3%;
+    padding-bottom: 20px;
+}
+.third-care img{
+    border-radius: 2%;
+    width: 100%
+ }
+ .third-care h2{
+   font-size: 20px;
+}
+ .third-care p{
+    font-size: 15px;
+    width: 310px;
+}
+.anc{
+    text-decoration: none;
+    color: rgb(3, 3, 85);
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.filter{
+    padding-left: 2rem;
+    padding-top: 2rem;
+    display: flex;
+    background-color: rgb(2, 2, 80); 
+}
+.filter-nav{
+    margin-left: 20%;
+}
+.filter h1{color: white; font-size: 30px;}
+.filter li{list-style-type: none; font-size: 20px;}
+.filter a{text-decoration: none; color: white;}
+.vas{
+    margin-left: 25%;
+}
+.filter-logo img{
+    width: 150px;
+}
+.filter i{
+    font-size: 30px;
+    display: none;
+}
+.copy{
+    margin-top: 5rem;
+    color: aliceblue;
+    font-size: 15px;
+}
+    
+@media(max-width:981px){
+    *{margin-top: 0%; margin-left: 0%;}
+    #ic{
+        margin-left: 13rem;
+        font-size: 2rem;
+        display: block;
+    }
+    .img{width: 50px;}
+    .ul{
+        display: block;
+        background-color: rgb(29, 80, 161);
+        position: absolute;
+        top: -600px;
+        transition: ease 1s;
+        width: 389px;
+        padding-left: 0%;
+        margin-left: 0%;
+    }
+    .ul i{
+        font-size: 2rem;
+        display: block;
+        margin-left: 18rem;
+        margin-top: 20px;
+    }
+    .ul a{padding-inline: 0%;   padding-left: 5rem;}
+    .ul li{
+        position: relative;
+        padding-block: 20px;
+        margin-left: 0px;
+        padding-inline: 0%;
+        background-color: rgb(29, 80, 161);
+        padding-left: 5rem;
+    }
+    .saw li{
+        padding-block: 1rem;
+        background-color: rgb(29, 80, 161);
+        width: 389px;
+    }
+    .saw{
+        display: none;
+        position: relative;
+    }
+    #ff{
+        margin-top: 135px;
+        z-index: 999;
+       position: absolute;
+      
+    }
+    .dd{
+        position: absolute;
+    }
+    .cast{
+        height: 20px;
+    }
+    .first-section{
+        padding-left: 5%;
+        margin-top: 5rem;
+    }
+        /*heading*/
+.heading h4{
+    font-size: 25px;
+    width: 350px;
+}
+/*first paragraph*/
+.firstp p{
+    font-size: 14px;
+    width: 350px;
+    text-align: left;
+    padding-top: 5%;
+}
+.list-offer{
+    margin-top: 0%;
+}
+.number2{margin-top: 8px;}
+.one{
+    padding: 3px;
+    background-color: orange;
+    width: 18px;
+    height: 1px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    margin-top: 22px;
+    padding-right: 4px;
+    border: solid rgb(2, 2, 109);
+}
+.number1 p{
+    font-size: 13px;
+    margin-left: 20px;
+    width: 240px;
+}
+.two{
+    padding: 3px;
+    background-color: orange;
+    width: 18px;
+    height: 1px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    margin-top: 22px;
+    padding-bottom: 20px;
+    padding-right: 4px;
+    border: solid rgb(2, 2, 109);
+}
+.number2 p{
+    font-size: 13px;
+    margin-left: 20px;
+    width: 250px;
+}
+.three{
+    padding: 3px;
+    background-color: orange;
+    width: 18px;
+    height: 1px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 4px;
+    border: solid rgb(2, 2, 109);
+}
+.number3 p{
+    font-size: 13px;
+    margin-left: 20px;
+    width: 250px;
+}
+.need{padding-bottom: 2rem; margin-top: 0%;}
+.need p{
+    font-size: 15px;
+    width: 300px;
+    font-weight: bold;
+    color: rgb(15, 15, 72);
+    margin-left: 35px;
+}
+.vinsave{
+    display: block;
+    padding-left: 0px;
+    padding-bottom: 3rem;
+}
+.first-care{
+    width: 85%;
+    padding-left: 28px;
+    margin-left: 0px;
+}
+.first-care img{
+    padding-left: 0px;
+    border-radius: 1%;
+    width: 100%
+}
+.first-care h2{font-size: 15px; padding-left: 0px;}
+.first-care p{
+    font-size: 13px;
+    padding-left: 0px;
+    width: 270px;
+    padding-bottom: 10px;
+}
+.second-care{
+    width: 85%;
+    margin-top: 2rem;
+   padding-left: 28px;
+}
+.second-care img{
+    padding-left: 0px;
+    border-radius: 1%;
+    width: 100%
+ }
+ .second-care h2{font-size: 15px; padding-left: 0px;}
+ .second-care p{
+    font-size: 13px;
+    padding-left: 0px;
+    width: 270px;
+}
+.third-care{
+    width: 85%;
+    margin-top: 2rem;
+    padding-left: 28px;
+}
+.third-care img{
+    border-radius: 1%;
+    padding-left: 0%;
+    width: 100%
+ }
+ .third-care h2{font-size: 15px; padding-left: 0px;}
+ .third-care p{
+    font-size: 13px;
+    width: 270px;
+    padding-left: 0px;
+}
+.anc{
+    padding-top: 0px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.filter{display: block;padding-bottom: 1rem; width: 344px;}
+.filter-nav{ margin-left: 0%;}
+.vas{ margin-left: 0%;}
+.filter i{display: block;
+    position: absolute;
+    margin-left: 15rem;
+}
+.firstdis{
+    width: 50%;
+    height: 25%;
+    display: none;
+}
+.seconddis{
+    width: 50%;
+    height: 25%;
+    display: none;
+}
+.copy{
+    font-size: 13px;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+}
+}
+
+
+
+
+
+

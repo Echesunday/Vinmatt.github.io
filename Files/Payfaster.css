@@ -1,0 +1,442 @@
+*{font-family: Arial, Helvetica, sans-serif;}
+body{margin: 0%;}
+.coner{
+    z-index: 999;
+    position: fixed;
+    top: 0%;
+    width: 100% !important;
+}
+.img{
+    width:5%;
+}
+.nav-bar{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    width: 100% !important;
+    top: -400px;
+    display: flex;
+    background-color: rgb(2, 2, 109);
+}
+.nav-bar i{display: none;}
+.ul{
+    display: flex;
+    margin-inline: 1rem;
+}
+.ul li{
+    margin-left: 45px;
+    list-style-type: none;
+    padding-inline: 4rem;
+  
+}
+.ul a{
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+}
+ul a:hover{
+    color: #ffa500;
+    width: 1px;
+    transition: ease-in-out 1s;
+}
+ul a:focus{
+   color: darkblue;
+}
+.saw li{
+    padding-block: 1rem;
+    background-color: rgb(2, 2, 109);
+    width: 70px;
+}
+.saw{display: none;
+    position: relative;
+    margin-right: 5rem;
+}
+.cast{
+    height: 20px;
+}
+.cast:hover .saw{
+    display: inline;
+}
+/*Herro-section*/
+.Herro-section{
+    padding-bottom: 8rem;
+    padding-left: 4rem;
+    padding-top: 9rem;
+    background-color: #ffa500;
+    display: flex;
+    padding-right: 4rem;
+}
+.mm{
+    background-color: rgb(2, 2, 109);
+    color: rgb(2, 2, 109);
+    height: 3px;
+    font-size: 1px;
+}
+.herro-img img{
+    margin-top: 3rem;
+    border-top-left-radius: 40%;
+    width: 80%;
+}
+.right h1{
+    font-size: 35px;
+    color:  rgb(2, 2, 109);
+}
+.right p{
+    width: 500px;
+    font-weight: bold;
+    font-size: 50px;
+}
+/*Middle-p*/
+.middle-p{
+    margin-left: 8rem;
+    margin-top: 8rem;
+    color: rgb(82, 81, 81);
+    font-size: 20px;
+    width: 500px;
+    line-height: 2rem;
+}
+/*Benefit of payfaster*/
+.Benefits{
+    display: flex;
+    padding-left: 2rem;
+    gap: 4rem;
+    padding-bottom: 10rem;
+}
+.bene{
+    color: #ffa500;
+    text-shadow: 0.0 5px 2px rgb(2, 2, 109);
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 8rem;
+    margin-top: 5rem;
+}
+.one{
+    display: flex;
+    gap: 25px;
+}
+.one p{
+    color: rgb(82, 81, 81);
+    width: 600px;
+    font-size: 18px;
+}
+.one i{
+    margin-top: 20px;
+    font-size: 2rem;
+    color: rgb(2, 2, 109);
+}
+.two{
+    display: flex;
+    gap: 25px;
+    margin-top: 3rem;
+}
+.two p{
+    color: rgb(82, 81, 81);
+    width: 600px;
+    font-size: 18px;
+}
+.two i{
+    margin-top: 20px;
+    font-size: 2rem;
+    color: rgb(2, 2, 109);
+}
+.three{
+    margin-top: 3rem;
+    display: flex;
+    gap: 25px;
+}
+.three p{
+    color: rgb(82, 81, 81);
+    width: 530px;
+    font-size: 18px;
+}
+.three i{
+    margin-top: 10px;
+    font-size: 2rem;
+    color: rgb(2, 2, 109);
+}
+.four{
+    display: flex;
+    gap: 25px;
+}
+.four p{
+    color: rgb(82, 81, 81);
+    width: 530px;
+    font-size: 18px;
+}
+.four i{
+    margin-top: 20px;
+    font-size: 2rem;
+    color: rgb(2, 2, 109);
+}
+.five{
+    margin-top: 3rem;
+    display: flex;
+    gap: 25px;  
+}
+.five p{
+    color: rgb(82, 81, 81);
+    width: 530px;
+    font-size: 18px;
+}
+.five i{
+    margin-top: 13px;
+    font-size: 2rem;
+    color: rgb(2, 2, 109);
+}
+.six{
+    margin-top: 3rem;
+    display: flex;
+    gap: 25px;  
+}
+.six p{
+    color: rgb(82, 81, 81);
+    font-size: 18px;
+    width: 530px;
+}
+.six i{
+    margin-top: 20px;
+    font-size: 2rem;
+    color: rgb(2, 2, 109);
+}
+ .filter{
+        padding-left: 2rem;
+        padding-top: 2rem;
+        display: flex;
+        background-color: rgb(2, 2, 80); 
+    }
+    .filter-nav{
+        margin-left: 20%;
+    }
+    .filter h1{color: white; font-size: 30px;}
+    .filter li{list-style-type: none; font-size: 20px;}
+    .filter a{text-decoration: none; color: white;}
+    .vas{
+        margin-left: 25%;
+    }
+    .filter-logo img{
+        width: 150px;
+    }
+    .filter i{
+        font-size: 30px;
+        display: none;
+    }
+    .copy{
+        margin-top: 5rem;
+        color: aliceblue;
+        font-size: 15px;
+    }
+
+@media(max-width:981px){
+    *{margin-top: 0%;}
+    *{margin-top: 0%; margin-left: 0%;}
+    #ic{
+        margin-left: 13rem;
+        font-size: 2rem;
+        display: block;
+    }
+    .img{width: 50px;}
+    .ul{
+        display: block;
+        background-color: rgb(29, 80, 161);
+        position: absolute;
+        top: -600px;
+        transition: ease 1s;
+        width: 389px;
+        padding-left: 0%;
+        margin-left: 0%;
+    }
+    .ul i{
+        font-size: 2rem;
+        display: block;
+        margin-left: 18rem;
+        margin-top: 20px;
+    }
+    .ul a{padding-inline: 0%;   padding-left: 5rem;}
+    .ul li{
+        position: relative;
+        padding-block: 20px;
+        margin-left: 0px;
+        padding-inline: 0%;
+        background-color: rgb(29, 80, 161);
+        padding-left: 5rem;
+    }
+    .saw li{
+        padding-block: 1rem;
+        background-color: rgb(29, 80, 161);
+        width: 389px;
+    }
+    .saw{
+        display: none;
+        position: relative;
+    }
+    #ff{
+        margin-top: 135px;
+        z-index: 999;
+       position: absolute;
+      
+    }
+    .dd{
+        position: absolute;
+    }
+    .cast{
+        height: 20px;
+    }
+    /*Herro-section*/
+.Herro-section{  
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    display: block;
+}
+.mm{
+    height: 1px;
+    font-size: 1px;
+}
+.herro-img img{
+    margin-top: 3rem;
+    border-top-left-radius: 40%;
+    width: 116%;
+}
+.right h1{
+    margin-top: 2rem;
+    font-size: 20px;
+    color:  rgb(2, 2, 109);
+}
+.right p{
+    width: 350px;
+    font-weight: bold;
+    font-size: 35px;
+}
+/*Middle-p*/
+.middle-p{
+    margin-left: 1rem;
+    margin-top: 3rem;
+    font-size: 15px;
+    width: 350px;
+    line-height: 25px;
+}
+/*Benefit of payfaster*/
+.Benefits{
+    display: block;
+    padding-left: 1rem;
+    gap: 0px;
+    padding-bottom: 5rem;
+}
+.bene{
+    text-shadow: 0.0 2px 1px rgb(2, 2, 109);
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+.one{
+    display: flex;
+    gap: 25px;
+}
+.one p{
+    width: 600px;
+    font-size: 13px;
+}
+.one i{
+    margin-top: 1px;
+    font-size: 2rem;
+}
+.two{
+    display: flex;
+    gap: 25px;
+    margin-top: 1rem;
+}
+.two p{
+    width: 600px;
+    font-size: 13px;
+}
+.two i{
+    margin-top: 1px;
+    font-size: 2rem;
+}
+.three{
+    margin-top: 1rem;
+    display: flex;
+    gap: 25px;
+}
+.three p{
+    width: 600px;
+    font-size: 13px;
+}
+.three i{
+    margin-top: 1px;
+    font-size: 2rem;
+}
+.four{
+    margin-top: 1rem;
+    display: flex;
+    gap: 25px;
+}
+.four p{
+    width: 600px;
+    font-size: 13px;
+}
+.four i{
+    margin-top: 1px;
+    font-size: 2rem;
+}
+.five{
+    margin-top: 1rem;
+    display: flex;
+    gap: 25px;  
+}
+.five p{
+    width: 600px;
+    font-size: 13px;
+}
+.five i{
+    margin-top: 1px;
+    font-size: 2rem;
+}
+.six{
+    margin-top: 1rem;
+    display: flex;
+    gap: 25px;  
+}
+.six p{
+    width: 600px;
+    font-size: 13px;
+}
+.six i{
+    margin-top: 1px;
+    font-size: 2rem;
+}
+.filter{display: block;padding-bottom: 1rem; }
+.filter-nav{ margin-left: 0%;}
+.vas{ margin-left: 0%;}
+.filter i{display: block;
+    position: absolute;
+    margin-left: 15rem;
+}
+.firstdis{
+    position: relative;
+    width: 50%;
+    height: 25%;
+    display: none;
+}
+.seconddis{
+    position: relative;
+    width: 50%;
+    height: 25%;
+    display: none;
+}  
+.copy{
+    font-size: 13px;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+} 
+}
+@media(max-width: 320px){
+    .Herro-section{
+        width: 360px;
+    }
+    .mm{width: 440px;}
+    .filter{width: 400px;}
+}

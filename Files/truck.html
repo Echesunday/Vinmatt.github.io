@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinmat Logistics</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<style>
+    *{font-family: Arial, Helvetica, sans-serif; margin: 0%;}
+    .section{
+        margin-top: 10rem;
+        padding-left: 24rem;
+        padding-bottom: 7rem;
+    }
+    form input{
+        display: block;
+        margin-block: 2rem;
+        width: 25rem;
+        height: 2rem;
+       border-style: groove;
+       border-width: 1px;
+        border-radius: 5pt;
+        padding-left: 20px;
+        font-size: 20px;
+    }
+    .poss{
+        font-size: 40px;
+        color: rgb(2, 2, 109);
+        margin-right: 4rem;
+    }
+    form input::placeholder{
+        font-size: 18px;
+        text-align: center;
+    }
+    form{
+        margin-left: 5rem;
+    }
+    button{
+        background-color: orange;
+        border: solid darkblue;
+        cursor: pointer;
+        width: 5rem;
+        height: 2rem;
+        border-radius: 20pt;
+        font-size: 15px;
+        color: aliceblue;
+        margin-left: 11rem;
+    }
+    button:hover{
+        background-color: rgb(208, 101, 24);
+        transform: translateX(4%);
+    }
+    *{font-family: Arial, Helvetica, sans-serif;}
+body{margin: 0%;}
+.coner{
+    z-index: 999;
+    position: fixed;
+    top: 0%;
+    width: 100% !important;
+}
+.img{
+    width:5%;
+}
+.nav-bar{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    width: 100% !important;
+    top: -400px;
+    display: flex;
+    background-color: rgb(2, 2, 109);
+}
+.nav-bar i{display: none;}
+.ul{
+    padding: 12px;
+    display: flex;
+    margin-inline: 1rem;
+    margin-top: 5px;
+}
+.ul li{
+    margin-left: 45px;
+    list-style-type: none;
+    padding-inline: 4rem;
+  
+}
+.ul a{
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+}
+ul a:hover{
+    color: #ffa500;
+    width: 1px;
+    transition: ease-in-out 1s;
+}
+ul a:focus{
+   color: darkblue;
+}
+.saw li{
+    padding-block: 1rem;
+    background-color: rgb(2, 2, 109);
+    width: 70px;
+}
+.saw{display: none;
+    position: relative;
+    margin-right: 5rem;
+}
+.cast{
+    height: 20px;
+}
+.cast:hover .saw{
+    display: inline;
+}
+span{font-size: 25px; position: absolute; left: 59rem; color: green; display: nne;}
+span i{font-size: 2rem; border-radius: 30pt;}
+.filter{
+        padding-left: 2rem;
+        padding-top: 2rem;
+        display: flex;
+        background-color: rgb(2, 2, 80); 
+        padding-bottom: 1rem;
+    }
+    .filter-nav{
+        margin-left: 20%;
+        margin-top: 2rem;
+    }
+    .filter h1{color: white; font-size: 30px;}
+    .filter li{list-style-type: none; font-size: 20px;}
+    .filter a{text-decoration: none; color: white;}
+    .vas{
+        margin-left: 25%;
+        margin-top: 2rem;
+    }
+    .filter-logo img{
+        width: 150px;
+    }
+    .filter i{
+        font-size: 30px;
+        display: none;
+    }
+    .copy{
+        margin-top: 4rem;
+        color: aliceblue;
+        font-size: 15px;
+        line-height: 2rem;
+    }
+@media(max-width:981px){
+    *{margin-top: 0%; margin-left: 0%;}
+    #ic{
+        margin-left: 13rem;
+        font-size: 2rem;
+        display: block;
+    }
+    .img{width: 50px;}
+    .ul{
+        display: block;
+        background-color: rgb(29, 80, 161);
+        position: absolute;
+        top: -600px;
+        transition: ease 1s;
+        width: 389px;
+        padding-left: 0%;
+        margin-left: 0%;
+    }
+    .ul i{
+        font-size: 2rem;
+        display: block;
+        margin-left: 18rem;
+        margin-top: 20px;
+    }
+    .ul a{padding-inline: 0%;   padding-left: 5rem;}
+    .ul li{
+        position: relative;
+        padding-block: 20px;
+        margin-left: 0px;
+        padding-inline: 0%;
+        background-color: rgb(29, 80, 161);
+        padding-left: 5rem;
+    }
+    .saw li{
+        padding-block: 1rem;
+        background-color: rgb(29, 80, 161);
+        width: 389px;
+    }
+    .saw{
+        display: none;
+        position: relative;
+    }
+    #ff{
+        margin-top: 135px;
+        z-index: 999;
+       position: absolute;
+      
+    }
+    .dd{
+        position: absolute;
+    }
+    .cast{
+        height: 20px;
+    }
+.buu{margin-left: 15rem;
+    display: block;
+}
+.Close{
+    display: block;
+}
+.section{
+        margin-top: 5rem;
+        padding-left: 0px;
+    }
+    .poss{
+        font-size: 25px;
+        margin-left: 1rem;
+        width: 300px;
+    }
+    form input{
+        margin-block: 20px;
+        width: 15rem;
+        height: 25px;
+        margin-left: 0px;
+    }
+    form{
+        margin-left: 9%;
+        width: 280px;
+    }
+    section{
+        padding-left: 0%;
+    }
+    button{
+        width: 4rem;
+        height: 2rem;
+        border-radius: 20pt;
+        font-size: 13px;
+        margin-left: 7rem;
+        padding-bottom: 3px;
+    }
+    form input::placeholder{
+        font-size: 15px;
+        text-align: center;
+    }
+    .filter{display: block;padding-bottom: 1rem; }
+.filter-nav{ margin-left: 0%;}
+.vas{ margin-left: 0%;}
+.filter i{display: block;
+    position: absolute;
+    margin-left: 15rem;
+}
+.firstdis{
+    position: relative;
+    width: 50%;
+    height: 25%;
+    display: none;
+}
+.seconddis{
+    position: relative;
+    width: 50%;
+    height: 25%;
+    display: none;
+}  
+.copy{
+    font-size: 13px;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+} 
+}
+</style>
+<body>
+      <!--nav bar container-->
+      <div class="coner">
+        <nav class="nav-bar">
+            <img src="Images/images.jpg" class="img">
+            <i class='bx bx-menu' onclick="menue()" id="ic"></i>
+            <!--nav-list container-->
+            <ul class="ul" id="div1">
+                <i class='bx bx-x' onclick="hide()"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <i class='bx bxs-chevron-down' id="ff" onclick="like()"></i>
+                <li><a href="http://127.0.0.1:5500/Service.html">Service</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <div class="cast">
+                  <li class="pro"><a  href="">VAS</a></li>
+                    <div class="saw">
+                        <li><a href="Vinsafe.html">VinmatSafe</a></li>
+                        <li><a  href="Payfaster.html">Payfaster</a></li>
+                        <li><a  href="Vinmatcare.html">VinmatCare</a></li>
+                    </div>
+                </div>
+            </div>
+            </ul>
+        </nav>
+    </div>
+    <section class="section">
+        <h1 class="poss">Register your products with Vinmat</h1>
+        <div class="input">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="name" placeholder="Product-Name " required>
+                <input type="code" name="number" placeholder="Product-Number" required>
+                <input type="number" name="number" placeholder="Phone-number" required>
+                <input type="email" name="email" placeholder="Input your email here" required>
+               <span id="msg"></i></span>
+                <div>
+                    <button  id="dood">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="filter">
+        <div class="filter-logo">
+            <img src="Images/Base.png" alt="">
+            <div class="copy">
+                <p>Copyright (c) 2024 Vinmat Int.</p>
+                <p>All right reserved</p>
+                </div>
+        </div>
+        <div class="filter-nav">
+            <i class='bx bx-chevron-down' onclick="firstone()"></i>
+            <dl>
+                <h1>Company</h1><br>
+                <div class="firstdis">
+                   <p><a href="About.html">About</a></p><br><br>
+                   <p><a href="Service.html">Services</a></p><br><br>
+                   <p><a href="Contact.html">Contact</a></p><br><br>
+                </div>
+            </dl>
+        </div>
+        <div class="vas">
+            <i class='bx bx-chevron-down' onclick="toch()"></i>
+           <dl>
+            <h1>VAS</h1><br>
+            <div class="seconddis">
+                <p><a href="Vinsafe.html">VinmatSafe</a></p><br><br>
+                <p><a href="Payfaster.html">Pay faster</a></p><br><br>
+                <p><a href="Vinmatcare.html">VinmatCare</a></p><br><br>
+            </div>
+           </dl>
+        </div>
+    </section>
+    
+    <script>
+  var div1 = document.getElementById("div1")
+    function menue(){
+      div1.style.top = "0px"
+    }
+    function hide(){
+        div1.style.top = "-400px"
+      }
+        let msg = document.querySelector("#msg")
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw7lIb0yjyQb0VGzTCxJx8NwTLGvzU1ziNLaw3mf8zsq95mMf2keztFAZERYuzwQPQepw/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Information reccieved" + "<i class='bx bxs-check-square'>"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    }, 1000)
+                    form.reset()
+            })
+            
+            .catch(error => console.error('Error!', error.message))
+        })
+        var sold = document.querySelector(".saw");
+     function like(){
+        if(sold.style.display == "none"){
+            sold.style.display = "block"
+        }else{
+            sold.style.display = "none"
+        }
+     }
+      </script>
+</body>
+</html>

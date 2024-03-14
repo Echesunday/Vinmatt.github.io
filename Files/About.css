@@ -1,0 +1,373 @@
+*{font-family: Arial, Helvetica, sans-serif;}
+body{margin: 0%;}
+.coner{
+    z-index: 999;
+    position: fixed;
+    width: 100% !important;
+}
+.img{
+    width:5%;
+}
+.nav-bar{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    top: -400px;
+    display: flex;
+    background-color: rgb(2, 2, 109);
+}
+.nav-bar i{display: none;}
+.ul{
+    display: flex;
+    margin-inline: 1rem;
+}
+.ul li{
+    margin-left: 45px;
+    list-style-type: none;
+    padding-inline: 4rem;
+  
+}
+.ul a{
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+}
+ul a:hover{
+    color: #ffa500;
+    width: 1px;
+    transition: ease-in-out 1s;
+}
+ul a:focus{
+   color: darkblue;
+}
+.saw li{
+    padding-block: 1rem;
+    background-color: rgb(2, 2, 109);
+    width: 70px;
+}
+.saw{display: none;
+    position: relative;
+    margin-right: 5rem;
+}
+.cast{
+    height: 20px;
+}
+.cast:hover .saw{
+    display: inline;
+}
+.about{
+    gap: 11rem;
+    padding-top: 8rem;
+    display: flex;
+    padding-left: 3rem;
+    padding-bottom: 10rem;
+    background-color: #ffa500;
+}
+.img img{
+    margin-top: 2rem;
+    border-radius: 5pt;
+    width: 800%;
+}
+.left{
+    margin-left: 24rem;
+}
+.left h1{
+    width: 640px;
+    font-weight: bold;
+    font-size: 50px;
+}
+.left p{
+    font-size: 35px;
+    font-weight: bold;
+}
+.left span{
+    color: rgb(2, 2, 109);
+}
+.line_diagonal {
+    width:25%;
+    margin-left: 150px;
+    margin-top: 25px;
+    position: absolute;
+     transform:rotate(75deg);
+     -o-transform:rotate(55deg);
+     -moz-transform:rotate(505deg);
+     -webkit-transform:rotate(659deg);}
+     .chain{
+        padding-left: 2rem;
+        padding-right: 3rem;
+        display: flex;
+        gap: 9rem;
+        padding-top: 5rem;
+        padding-bottom: 6rem;
+     }
+     .first img{
+        width: 100%;
+     }
+     .vl{
+        margin-top: 12rem;
+        margin-left: 5rem;
+        width: 20rem;
+        background-color: rgb(127, 159, 254);
+        padding: 4rem;
+        padding-bottom: 3rem;
+       border-radius: 5%;
+     }
+     .vl h1{
+        color: aliceblue;
+        font-weight: bolder;
+        font-size: 50px;
+     }
+    .inline{
+        padding-left: 40px;
+        display: flex;
+    }
+    .vin{
+        margin-top: 40px;
+        width: 60px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        border-radius: 7pt;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 15px;
+        margin-left: 130px;
+        position: absolute;
+        background-color: rgb(2, 2, 109);
+        color: aliceblue;
+    }
+    .pp{
+        width: 300px;
+        font-size: 15px;
+        color: aliceblue;
+    }
+    .ppp{
+        color: rgb(2, 2, 109);
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .po{
+        color: rgb(2, 2, 109);
+        text-shadow: 0.0 2px 3px #ffa500;
+    }
+    .oya p{
+        font-size: 18px;
+        line-height: 200%;
+    }
+    .ss{ color: rgb(2, 2, 109);
+        text-shadow: 0.0 2px 3px #ffa500;}
+        .filter{
+            padding-left: 2rem;
+            padding-top: 2rem;
+            display: flex;
+            background-color: rgb(2, 2, 80); 
+        }
+        .filter-nav{
+            margin-left: 20%;
+        }
+        .filter h1{color: white; font-size: 30px;}
+        .filter li{list-style-type: none; font-size: 20px;}
+        .filter a{text-decoration: none; color: white;}
+        .vas{
+            margin-left: 25%;
+        }
+        .filter-logo img{
+            width: 150px;
+        }
+        .filter i{
+            font-size: 30px;
+            display: none;
+        }
+        .copy{
+            margin-top: 5rem;
+            color: aliceblue;
+            font-size: 15px;
+        }
+    @media(max-width: 981px){
+        *{margin-top: 0%; margin-left: 0%;}
+        #ic{
+            margin-left: 13rem;
+            font-size: 2rem;
+            display: block;
+        }
+        .img{width: 50px;}
+        .ul{
+            display: block;
+            background-color: rgb(29, 80, 161);
+            position: absolute;
+            top: -600px;
+            transition: ease 1s;
+            width: 389px;
+            padding-left: 0%;
+            margin-left: 0%;
+        }
+        .ul i{
+            font-size: 2rem;
+            display: block;
+            margin-left: 18rem;
+            margin-top: 20px;
+        }
+        .ul a{padding-inline: 0%;   padding-left: 5rem;}
+        .ul li{
+            position: relative;
+            padding-block: 20px;
+            margin-left: 0px;
+            padding-inline: 0%;
+            background-color: rgb(29, 80, 161);
+            padding-left: 5rem;
+        }
+        .saw li{
+            padding-block: 1rem;
+            background-color: rgb(29, 80, 161);
+            width: 389px;
+        }
+        .saw{
+            display: none;
+            position: relative;
+        }
+        #ff{
+            margin-top: 135px;
+            z-index: 999;
+           position: absolute;
+          
+        }
+        .dd{
+            position: absolute;
+        }
+        .cast{
+            height: 20px;
+        }
+        .about{
+            padding-top: 3rem;
+            display: block;
+            padding-left: 2rem;
+            padding-bottom: 5rem;
+        }
+        .img img{
+            border-radius: 5pt;
+            width: 313px;
+        }
+        .left{
+            margin-left: 0px;
+        }
+        .left h1{
+            width: 300px;
+            font-weight: bold;
+            font-size: 23px;
+        }
+        .left p{
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 20px;
+            margin-left: 8px;
+        }
+        .line_diagonal {
+            width:50%;
+            margin-left: 150px;
+            margin-top: 0px;
+            position: absolute;
+             transform:rotate(75deg);
+             -o-transform:rotate(55deg);
+             -moz-transform:rotate(505deg);
+             -webkit-transform:rotate(659deg);}
+             .chain{
+                padding-left: 0px;
+                padding-right: 3rem;
+                display: block;
+                gap: 9rem;
+                padding-top: 60px;
+                padding-bottom: 6rem;
+             }
+             .first img{
+                width: 350px;
+                margin-left: 14px;
+             }
+             .vl{
+                margin-top: 6rem;
+                margin-left: 37px;
+                width: 17rem;
+                padding: 1rem;
+                padding-bottom: 1rem;
+             }
+             .vl h1{
+                margin-top: 1rem;
+                position: absolute;
+                color: aliceblue;
+                font-weight: bolder;
+                font-size: 30px;
+             }
+            .inline{
+                padding-left: 40px;
+                display: flex;
+            }
+            .vin{
+                margin-top: 20px;
+                width: 40px;
+                padding-top: 7px;
+                padding-bottom: 0px;
+                border-radius: 7pt;
+                padding-left: 20px;
+                padding-right: 20px;
+                font-size: 10px;
+                margin-left: 130px;
+            }
+            .pp{
+                margin-top: 6rem;
+                width: 300px;
+                font-size: 12px;
+                color: aliceblue;
+            }
+            .ppp{
+                color: rgb(2, 2, 109);
+                font-weight: bold;
+                font-size: 12px;
+            }
+            .oya h1{
+                margin-left: 20px;
+                width: 350px;
+                font-size: 14px;
+                margin-top: 5rem;
+            }
+            .oya p{
+                font-size: 13px;
+                line-height: 200%;
+                margin-left: 20px;
+                width: 350px;
+            }
+            .filter{
+                padding-left: 2rem;
+                padding-top: 3rem;
+                display: flex;
+            }
+           
+            .filter{display: block;padding-bottom: 1rem; width: 344px;}
+            .filter-nav{ margin-left: 0%;}
+            .vas{ margin-left: 0%;}
+            .filter i{
+                display: block;
+                position: absolute;
+                margin-left: 15rem;
+            }
+            .firstdis{
+                position: relative;
+                width: 50%;
+                height: 25%;
+                display: none;
+            }
+            .seconddis{
+                position: relative;
+                width: 50%;
+                height: 25%;
+                display: none;
+            }  
+            .copy{
+                font-size: 13px;
+                margin-top: 2rem;
+                padding-bottom: 1rem;
+            }
+    }
+    @media(max-width:320px){
+        .about{width: 344px;}
+    }
+ 

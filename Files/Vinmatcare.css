@@ -1,0 +1,385 @@
+*{font-family: Arial, Helvetica, sans-serif;}
+body{margin: 0%;}
+.coner{
+    z-index: 999;
+    position: fixed;
+    width: 100% !important;
+}
+.img{
+    width:5%;
+}
+.nav-bar{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    width: 100% !important;
+    top: -400px;
+    display: flex;
+    background-color: rgb(2, 2, 109);
+}
+.nav-bar i{display: none;}
+.ul{
+    display: flex;
+    margin-inline: 1rem;
+}
+.ul li{
+    margin-left: 45px;
+    list-style-type: none;
+    padding-inline: 4rem;
+  
+}
+.ul a{
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+}
+ul a:hover{
+    color: #ffa500;
+    width: 1px;
+    transition: ease-in-out 1s;
+}
+ul a:focus{
+   color: darkblue;
+}
+.saw li{
+    padding-block: 1rem;
+    background-color: rgb(2, 2, 109);
+    width: 70px;
+}
+.saw{display: none;
+    position: relative;
+}
+.cast{
+    height: 20px;
+}
+.cast:hover .saw{
+    display: inline;
+}
+.section{
+    gap: 10rem;
+    padding-top: 12rem;
+    padding-left: 6rem;
+    display: flex;
+    background-color: #ffa500;
+    padding-bottom: 8rem;
+}
+.imgg img{
+    width: 500px;
+    border-radius: 5pt;
+}
+.beside{width: 550px;}
+.beside h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+.beside span{
+    color: rgb(2, 2, 109);
+}
+.beside p{
+    margin-top: 3rem;
+    width: 500px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.mm{
+    background-color: rgb(2, 2, 109);
+    color: rgb(2, 2, 109);
+    height: 3px;
+    font-size: 1px;
+}
+.alone{
+    margin-left: 8rem;
+    margin-top: 8rem;
+    color: rgb(82, 81, 81);
+    font-size: 20px;
+    width: 500px;
+    line-height: 35px;
+}
+.why{
+    color: #ffa500;
+    text-shadow: 0.0 5px 2px rgb(2, 2, 109);
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 8rem;
+    margin-top: 5rem;
+}
+/*Benefit of payfaster*/
+.Benefits{
+    margin-top: 5rem;
+    display: flex;
+    padding-left: 1rem;
+    gap: 7rem;
+    padding-bottom: 10rem;
+}
+.bene{
+    color: #ffa500;
+    text-shadow: 0.0 5px 2px rgb(2, 2, 109);
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 8rem;
+    margin-top: 5rem;
+}
+.one{
+    display: flex;
+    gap: 25px;
+}
+.one p{
+    color: rgb(82, 81, 81);
+    width: 600px;
+    font-size: 18px;
+    margin-top: 8px;
+}
+.one i{
+    font-size: 2rem;
+    color: rgb(2, 2, 109);
+}
+.two{
+    display: flex;
+    gap: 25px;
+    margin-top: 7rem;
+}
+.two p{
+    color: rgb(82, 81, 81);
+    width: 600px;
+    font-size: 18px;
+}
+.two i{
+    margin-top: 19px;
+    font-size: 2rem;
+    color: rgb(2, 2, 109);
+}
+.three{
+    display: flex;
+    gap: 25px;
+}
+.three p{
+    margin-top: 5px;
+    color: rgb(82, 81, 81);
+    width: 500px;
+    font-size: 18px;
+}
+.three i{
+    margin-top: 10px;
+    font-size: 2rem;
+    color: rgb(2, 2, 109);
+}
+.four{
+    margin-top: 7rem;
+    display: flex;
+    gap: 25px;
+}
+.four p{
+    color: rgb(82, 81, 81);
+    width: 400px;
+    font-size: 18px;
+}
+.four i{
+    margin-top: 19px;
+    font-size: 2rem;
+    color: rgb(2, 2, 109);
+}
+.filter{
+    padding-left: 2rem;
+    padding-top: 2rem;
+    display: flex;
+    background-color: rgb(2, 2, 80); 
+}
+.filter-nav{
+    margin-left: 20%;
+}
+.filter h1{color: white; font-size: 30px;}
+.filter li{list-style-type: none; font-size: 20px;}
+.filter a{text-decoration: none; color: white;}
+.vas{
+    margin-left: 25%;
+}
+.filter-logo img{
+    width: 150px;
+}
+.filter i{
+    font-size: 30px;
+    display: none;
+}
+.copy{
+    margin-top: 5rem;
+    color: aliceblue;
+    font-size: 15px;
+}
+@media(max-width:981px){
+    *{margin-top: 0%;}
+    #ic{
+        margin-left: 13rem;
+        font-size: 2rem;
+        display: block;
+    }
+    .img{width: 50px;}
+    .ul{
+        display: block;
+        background-color: rgb(29, 80, 161);
+        position: absolute;
+        top: -600px;
+        transition: ease 1s;
+        width: 389px;
+        padding-left: 0%;
+        margin-left: 0%;
+    }
+    .ul i{
+        font-size: 2rem;
+        display: block;
+        margin-left: 18rem;
+        margin-top: 20px;
+    }
+    .ul a{padding-inline: 0%;   padding-left: 5rem;}
+    .ul li{
+        position: relative;
+        padding-block: 20px;
+        margin-left: 0px;
+        padding-inline: 0%;
+        background-color: rgb(29, 80, 161);
+        padding-left: 5rem;
+    }
+    .saw li{
+        padding-block: 1rem;
+        background-color: rgb(29, 80, 161);
+        width: 389px;
+    }
+    .saw{
+        display: none;
+        position: relative;
+    }
+    .cast{
+        height: 20px;
+    }
+    .section{
+        gap: 13rem;
+        padding-top: 4rem;
+        padding-left: 22px;
+        display: block;
+        padding-bottom: 3rem;
+    }
+    .imgg{ width: 330px; }
+    .imgg img{
+        max-width: 330px;
+    }
+    .beside{width: 330px; }
+    .beside h1{
+        margin-top: 20px;
+        font-size: 22px;
+        font-weight: bold;
+
+    }
+    .beside p{
+        margin-top: 1rem;
+        width: 335px;
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    .mm{
+        height: 1px;
+        font-size: 1px;
+    }
+    .alone{
+        margin-left: 1rem;
+        margin-top: 3rem;
+        font-size: 15px;
+        width: 355px;
+    }
+    .why{
+        text-shadow: 0.0 2px 1px rgb(2, 2, 109);
+        font-size: 25px;
+        margin-left: 4rem;
+        margin-top: 1rem;
+        position: absolute;
+    }
+    /*Benefit of payfaster*/
+.Benefits{
+    display: block;
+    padding-left: 1rem;
+    padding-right: 10px;
+    gap: 0px;
+    padding-bottom: 5rem;
+}
+    .one{
+        display: flex;
+        gap: 25px;
+    }
+    .one p{
+        width: 600px;
+        font-size: 13px;
+    }
+    .one i{
+        margin-top: 1px;
+        font-size: 2rem;
+    }
+    .two{
+        display: flex;
+        gap: 25px;
+        margin-top: 1rem;
+    }
+    .two p{
+        width: 600px;
+        font-size: 13px;
+    }
+    .two i{
+        margin-top: 1px;
+        font-size: 2rem;
+    }
+    .three{
+        margin-top: 1rem;
+        display: flex;
+        gap: 25px;
+    }
+    .three p{
+        width: 600px;
+        font-size: 13px;
+    }
+    .three i{
+        margin-top: 1px;
+        font-size: 2rem;
+    }
+    .four{
+        margin-top: 1rem;
+        display: flex;
+        gap: 25px;
+    }
+    .four p{
+        width: 600px;
+        font-size: 13px;
+    }
+    .four i{
+        margin-top: 1px;
+        font-size: 2rem;
+    }
+    .filter{display: block;padding-bottom: 1rem; width: 344px;}
+.filter-nav{ margin-left: 0%;}
+.vas{ margin-left: 0%;}
+.filter i{display: block;
+    position: absolute;
+    margin-left: 15rem;
+}
+.firstdis{
+    position: relative;
+    width: 50%;
+    height: 25%;
+    display: none;
+}
+.seconddis{
+    position: relative;
+    width: 50%;
+    height: 25%;
+    display: none;
+}  
+.copy{
+    font-size: 13px;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+}
+}
+@media(max-width: 320px){
+    .section{
+        width: 357px;
+    }
+}
+
